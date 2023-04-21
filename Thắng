@@ -1,0 +1,25 @@
+
+```
+#include <iostream>
+using namespace std;
+  
+class Bike {
+  public:
+    void setWheels(int num_wheels){
+      wheels = num_wheels;
+    }
+    int getWheels(){
+      return wheels;
+    }
+  private:
+    int wheels;
+};
+  
+int main() {
+  Bike my_bike;
+  my_bike.setWheels(2);
+  cout << "My bike has " << my_bike.getWheels() << " wheels."<<endl;
+  return 0;
+}
+```
+
